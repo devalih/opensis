@@ -1,4 +1,4 @@
-openSIS Student Information System - INSTALLATION DIRECTIONS
+AliSIS Student Information System - INSTALLATION DIRECTIONS
 
 -----------------------
 Version 5.0
