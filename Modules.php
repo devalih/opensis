@@ -617,7 +617,7 @@ echo "<tr>
 							  
 echo "<div id='submenu_1' style='display:none;'>
 
-<table cellspacing=0 celpadding=0 border=0 width=100%><tr><td width=60% valign=middle class='welcome'><b>Welcome to openSIS Student Information System</b></td><td width=40% class='version'>Version : ".$openSISVersion." | Release Date : ".$builddate."</td></tr></table> 
+<table cellspacing=0 celpadding=0 border=0 width=100%><tr><td width=60% valign=middle class='welcome'><b>Welcome To United Alyahar School</b></td><td width=40% class='version'> |  Date : ".$builddate."</td></tr></table> 
 
 </div>"; 
 $i = 2;
@@ -791,7 +791,7 @@ echo "
 					
 echo "				<div class=\"page_heading_breadcrumb\"><label id='header' name='header'></label>&nbsp;</td><td>";
 ## for opera echo '<div id="showhelp"><a href="javascript:void(0);" onclick="inter=setInterval(\'ShowBox(helpdiv, 380, 503, 630, 188, showhelp)\',1);return false;"><b>Help</b></a></div>';
-echo '<div id="showhelp" style="padding-top:33px;"><a href="javascript:void(0);" onclick="inter=setInterval(\'ShowBox(helpdiv, 380, 499, 499, 211, showhelp)\',1);return false;"><b>Help</b></a></div></td></tr></table>';
+echo '<div id="showhelp" style="padding-top:33px;"><a href="javascript:void(0);" onclick="inter=setInterval(\'ShowBox(helpdiv, 380, 499, 499, 211, showhelp)\',1);return false;"><b></b></a></div></td></tr></table>';
 
 echo '
 	<div style="height:0px; margin-top:-6px; width=0px; position: absolute; overflow:hidden; visibility: hidden; text-align:left; " id="helpdiv">
@@ -1232,8 +1232,7 @@ echo "</div>";
 			<table width=\"100%\" border=\"0\">
   <tr>
     <td align='center' class='copyright'>
-       <center>openSIS is a product of Open Solutions for Education, Inc. (<a href='http://www.os4ed.com' target='_blank'>OS4Ed</a>).
-                and is licensed under the <a href='http://www.gnu.org/licenses/gpl.html' target='_blank'>GPL License</a>.
+       <center>United School 2013
                 </center></td>
   </tr>
 </table>
