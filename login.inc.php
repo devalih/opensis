@@ -57,8 +57,8 @@ Warehouse('header');
         <tr>
           <td class='header'><table width='100%' border='0' cellspacing='0' cellpadding='0' class='logo_padding'>
               <tr>
-                <td><img src='assets/osis_logo.png' border='0' /></td>
-                <td align='right'><a href='http://www.os4ed.com' target=_blank ><img src='assets/os4ed_logo.png' height='62' width='66' border='0'/></a></td>
+                <td><img src='assets/logo.png' border='0' /></td>
+                <td align='right'><a href='http://www.os4ed.com' target=_blank ></a></td>
               </tr>
             </table></td>
         </tr>
@@ -69,7 +69,7 @@ Warehouse('header');
                     <tr>
                       <td class='header_padding'><table width='100%' border='0' cellspacing='0' cellpadding='0'>
                           <tr>
-                            <td class='header_txt'>Student Information System</td>
+                            <td class='header_txt'>United School System</td>
                           </tr>
                         </table></td>
                     </tr>";
@@ -108,7 +108,7 @@ Warehouse('header');
 				  </td>
                           </tr>
                           <tr>
-                            <td align='center'><p style='padding:6px;'>".$log_msg['MESSAGE']."</p></td>
+                            <td align='center'><p style='padding:6px;'>Welcome to United School System</p></td>
                           </tr>
                         </table></td>
                     </tr>
@@ -122,8 +122,7 @@ Warehouse('header');
               </tr>
               <tr>
                 <td align='center' class='copyright'>
-                openSIS is a product of Open Solutions for Education, Inc. (<a href='http://www.os4ed.com' target='_blank'>OS4Ed</a>).
-                and is licensed under the <a href='http://www.gnu.org/licenses/gpl.html' target='_blank'>GPL License</a>.
+                
                 </td>
               </tr>
             </table></td>
