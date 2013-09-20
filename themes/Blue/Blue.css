@@ -1,5 +1,5 @@
 body { background-image:url(bg.png); margin:0px; padding:0px;}
-td,div,p,select,input,textarea { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#195977;}
+td,div,p,select,input,textarea { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#195977;}
 textarea { resize:vertical; }
 img { border:0px;}
 fieldset { border:1px solid #9ac4d5 ; padding:6px; color:#7f9db9;}
