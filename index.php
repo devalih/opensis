@@ -479,7 +479,7 @@ elseif($_REQUEST['modfunc']!='create_account')
 {
     echo "
         <HTML>
-            <HEAD><TITLE>".Config('TITLE')."</TITLE><link rel=\"shortcut icon\" href=\"favicon.ico\"></HEAD>";
+            <HEAD><TITLE>".Config('TITLE')."</TITLE><link rel=\"shortcut icon\" href=\"favicon2.ico\"></HEAD>";
     echo "<noscript><META http-equiv=REFRESH content='0;url=index.php?modfunc=logout&reason=javascript' /></noscript>";
     echo "<frameset id=mainframeset rows='*,0' border=0 framespacing=0>
                 <frameset cols='0,*' border=0>
