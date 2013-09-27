@@ -191,7 +191,7 @@ ul.selected_report_list { margin-left:5px; }
 #cdnavheader ul { padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px; zoom: 100%; list-style-type: none;  }
 #cdnavheader li { padding-right: 0px; padding-left: 0px; float: left; padding-bottom: 0px; margin: 0px; padding-top: 0px;}
 #cdnavheader a { padding-right: 0px; background-position: left top; padding-left: 8px; float: left; background-image: url(left_bot.gif); padding-bottom: 0px; margin: 0px; padding-top: 0px; background-repeat: no-repeat; text-decoration: none;}
-#cdnavheader a span { padding-right: 12px; background-position: 0px 35px; display: block; padding-left: 4px; font-weight: bold; background-image: url(right_bot.gif); padding-bottom: 5px; color: #2d83ab; padding-top: 14px; background-repeat: no-repeat; font-size:11px}
+#cdnavheader a span { padding-right: 12px; background-position: 0px 35px; display: block; padding-left: 4px; font-weight: bold; background-image: url(right_bot.gif); padding-bottom: 5px; color: #2d83ab; padding-top: 14px; background-repeat: no-repeat; font-size:14px}
 #cdnavheader #current a { border-top-width: 0px; background-position: 0px -145px; border-left-width: 0px; background-image: url(left_bp.gif); border-bottom: #dfebfc 0px solid; background-repeat: no-repeat; border-right-width: 0px; }
 #cdnavheader #current a span { padding-right: 12px; background-position: 100% -145px; padding-left: 4px; background-image: url(right_bp.gif); padding-bottom: 5px; color: #2d83ab; padding-top: 14px; background-repeat: no-repeat; }
 #cdnavheader a span { float: none;}
