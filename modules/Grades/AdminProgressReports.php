@@ -74,7 +74,7 @@ if($_REQUEST['modfunc']=='save')
 			$student_points = $total_points = $percent_weights = array();
 			unset($_openSIS['DrawHeader']);
 			echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
-			echo "<tr><td width=105>".DrawLogo()."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">". GetSchool(UserSchool())."<div style=\"font-size:12px;\">Student Progress Report</div></td><td align=right style=\"padding-top:20px;\">". ProperDate(DBDate()) ."<br/>Powered by openSIS</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
+			echo "<tr><td width=105>".DrawLogo()."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">". GetSchool(UserSchool())."<div style=\"font-size:12px;\">Student Progress Report</div></td><td align=right style=\"padding-top:20px;\">". ProperDate(DBDate()) ."<br/>United school alyahar</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
 			echo '<table border=0 style=\"font-size:12px;\">';
 			echo "<tr><td>Student Name:</td>";
 			echo "<td>" .$student['FULL_NAME']. "</td></tr>";
