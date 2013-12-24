@@ -150,7 +150,7 @@ if($_REQUEST['modfunc']=='save')
 		foreach($RET as $student_id=>$course_periods)
 		{
 			echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
-			echo "<tr><td width=105>"."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">"."<div style=\"font-size:16px;\" align=Center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report Card (2013-2014)</div></td><td align=right style=\"padding-top:20px\">". ProperDate(DBDate()) ."<br \>United School Alyahar</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
+			echo "<tr><td width=105>"."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">"."<div style=\"font-size:16px;\" align=Center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report Card (2013-2014)</div></td><td align=right style=\"padding-top:20px\">". ProperDate(DBDate()) ."<br \>United School Alyahar</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;&nbsp;</td></tr></table>";<br>
 			echo '<!-- MEDIA SIZE 8.5x11in -->';
 			$comments_arr = array();
 			$comments_arr_key = count($all_commentsA_RET)>0;
@@ -240,10 +240,10 @@ if($_REQUEST['modfunc']=='save')
 				echo '<table border=0>';
 				echo '<tr><td>Student Name :</td>';
 				echo '<td>'.$mps[key($mps)][1]['FULL_NAME'].'</td></tr>';
-				echo '<tr><td>Student ID :</td>';
-				echo '<td>'.$mps[key($mps)][1]['STUDENT_ID'].'</td></tr>';
-                                echo '<tr><td>Alternate ID :</td>';
-				echo '<td>'.$mps[key($mps)][1]['ALT_ID'].'</td></tr>';
+				//echo '<tr><td>Student ID :</td>';
+				//echo '<td>'.$mps[key($mps)][1]['STUDENT_ID'].'</td></tr>';
+                                //echo '<tr><td>Alternate ID :</td>';
+				//echo '<td>'.$mps[key($mps)][1]['ALT_ID'].'</td></tr>';
 				echo '<tr><td>Student Grade :</td>';
 				echo '<td>'.$mps[key($mps)][1]['GRADE_ID'].'</td></tr>';
 				echo '</table>';
