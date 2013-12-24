@@ -150,7 +150,7 @@ if($_REQUEST['modfunc']=='save')
 		foreach($RET as $student_id=>$course_periods)
 		{
 			echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
-			echo "<tr><td width=105>"."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">"."<div style=\"font-size:16px;\" align=Center> Report Card (2013-2014)</div></td><td align=right style=\"padding-top:20px\">". ProperDate(DBDate()) ."<br \>United School Alyahar</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
+			echo "<tr><td width=105>"."</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">"."<div style=\"font-size:16px;\" align=Center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report Card (2013-2014)</div></td><td align=right style=\"padding-top:20px\">". ProperDate(DBDate()) ."<br \>United School Alyahar</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
 			echo '<!-- MEDIA SIZE 8.5x11in -->';
 			$comments_arr = array();
 			$comments_arr_key = count($all_commentsA_RET)>0;
