@@ -342,10 +342,10 @@ if($_REQUEST['modfunc']=='save')
                     echo '<span style="font-size:13px; font-weight:bold;"></span>';
 					echo '<br/><br/><br/>';
                     echo '<table width="100%" border=0>';
-                    echo '<tr><td align="left" width=190><span style="font-size:13px; font-weight:bold; height:30px;">Teacher&rsquo;s Signature</span><br/><br/><br/><br/></td><td width="5" valign=top>:</td><td align=left  valign=top>______________________________________</td><td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
-                    echo '<tr><td align=left><span style="font-size:13px; font-weight:bold; height:30px;">Principal&rsquo;s Signature</span><br/><br/><br/><br/></td><td  valign=top>:</td><td  valign=top>______________________________________</td>';
-                    echo '<td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
-                    echo '<tr><td align="left"><span style="font-size:13px; font-weight:bold; height:30px;">Parent/Guardian&rsquo;s Signature</span></td><td  valign=top>:</td><td valign=top>______________________________________</td><td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
+                   // echo '<tr><td align="left" width=190><span style="font-size:13px; font-weight:bold; height:30px;">Teacher&rsquo;s Signature</span><br/><br/><br/><br/></td><td width="5" valign=top>:</td><td align=left  valign=top>______________________________________</td><td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
+                    echo '<tr><td align=left><span style="font-size:13px; font-weight:bold; height:30px;">School <br> Administration</span><br/><br/><br/><br/></td><td  valign=top>:</td><td  valign=top><img src="assets/noimage.jpg " /></td>';
+                    //echo '<td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
+                   // echo '<tr><td align="left"><span style="font-size:13px; font-weight:bold; height:30px;">Parent/Guardian&rsquo;s Signature</span></td><td  valign=top>:</td><td valign=top>______________________________________</td><td valign=top align=left><span style="font-size:13px; font-weight:bold; height:30px;">Date : ______________</span></td></tr>';
                     echo '</table>';
 					echo '<table width="100%"><tr><td style="font-style:italic; font-size:12px;"></td></tr></table>';
                  }  echo '<br/><br/>';
