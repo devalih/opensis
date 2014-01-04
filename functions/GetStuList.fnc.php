@@ -198,7 +198,7 @@ function GetStuList(& $extra)
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
 				$sql .='s.LAST_NAME,s.FIRST_NAME,s.MIDDLE_NAME,s.STUDENT_ID,s.PHONE,ssm.SCHOOL_ID,s.ALT_ID,ssm.SCHOOL_ID AS LIST_SCHOOL_ID,ssm.GRADE_ID'.$extra['SELECT'];
@@ -277,7 +277,7 @@ if($_REQUEST['reason'] || $_REQUEST['result'] || $_REQUEST['med_vist_comments']|
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
 				$sql .='s.LAST_NAME,s.FIRST_NAME,s.MIDDLE_NAME,s.STUDENT_ID,s.PHONE,s.ALT_ID,ssm.SCHOOL_ID,ssm.GRADE_ID '.$extra['SELECT'];
@@ -345,7 +345,7 @@ if($_REQUEST['reason'] || $_REQUEST['result'] || $_REQUEST['med_vist_comments']|
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
 				$sql .='s.LAST_NAME,s.FIRST_NAME,s.MIDDLE_NAME,s.STUDENT_ID,s.ALT_ID,ssm.SCHOOL_ID,ssm.GRADE_ID '.$extra['SELECT'];
@@ -915,7 +915,7 @@ function GetStuList_Absence_Summary(& $extra)
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
 				$_SESSION['new_sql']=$sql;
@@ -1003,7 +1003,7 @@ if($_REQUEST['reason'] || $_REQUEST['result'] || $_REQUEST['med_vist_comments']|
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
                                 $_SESSION['new_sql']=$sql;
@@ -1095,7 +1095,7 @@ if($_REQUEST['reason'] || $_REQUEST['result'] || $_REQUEST['med_vist_comments']|
 			else
 			{
 				if(Preferences('NAME')=='Common')
-					$sql .= 'CONCAT(s.LAST_NAME,\', \',coalesce(s.COMMON_NAME,s.FIRST_NAME)) AS FULL_NAME,';
+						$sql .= 'CONCAT(s.FIRST_NAME,\' \',s.MIDDLE_NAME,\' \',coalesce(s.COMMON_NAME,s.LAST_NAME)) AS FULL_NAME,';
 				else
 					$sql .= 'CONCAT(s.LAST_NAME,\', \',s.FIRST_NAME,\' \',COALESCE(s.MIDDLE_NAME,\' \')) AS FULL_NAME,';
 				$sql .='s.LAST_NAME,s.FIRST_NAME,s.MIDDLE_NAME,s.STUDENT_ID,s.ALT_ID,ssm.SCHOOL_ID,ssm.GRADE_ID '.$extra['SELECT'];
