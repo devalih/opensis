@@ -237,7 +237,7 @@ if($_REQUEST['modfunc']=='save')
 //				if($_REQUEST['mailing_labels']=='Y')
 //					echo '<BR><BR><BR>';
 				//DrawHeader(Config('TITLE').' Report Card');
-				echo '<table border=0 font-size:12px; font-weight:bold>';
+				echo '<table border=0 style=\" font-family:Arial; font-size:12px;\">';
 				echo '<tr><td style=\"font-size:10px; font-weight:bold;\">Student Name :</td>';
 				echo '<td style=\"font-size:10px; font-weight:bold;\" >'.$mps[key($mps)][1]['FULL_NAME'].'</td></tr>';
 				//echo '<tr><td>Student ID :</td>';
