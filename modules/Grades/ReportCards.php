@@ -238,14 +238,14 @@ if($_REQUEST['modfunc']=='save')
 //					echo '<BR><BR><BR>';
 				//DrawHeader(Config('TITLE').' Report Card');
 				echo '<table border=0 font-size:12px; font-weight:bold>';
-				echo '<tr><td>Student Name :</td>';
-				echo '<td>'.$mps[key($mps)][1]['FULL_NAME'].'</td></tr>';
+				echo '<tr><td style=\"font-size:10px; font-weight:bold;\">Student Name :</td>';
+				echo '<td style=\"font-size:10px; font-weight:bold;\" >'.$mps[key($mps)][1]['FULL_NAME'].'</td></tr>';
 				//echo '<tr><td>Student ID :</td>';
 				//echo '<td>'.$mps[key($mps)][1]['STUDENT_ID'].'</td></tr>';
                                 //echo '<tr><td>Alternate ID :</td>';
 				//echo '<td>'.$mps[key($mps)][1]['ALT_ID'].'</td></tr>';
-				echo '<tr><td>Student Grade :</td>';
-				echo '<td>'.$mps[key($mps)][1]['GRADE_ID'].'</td></tr>';
+				echo '<tr><td style=\"font-size:15px; font-weight:bold;\">Student Grade :</td>';
+				echo '<td style=\"font-size:10px; font-weight:bold;\">'.$mps[key($mps)][1]['GRADE_ID'].'</td></tr>';
 				echo '</table>';
 				//DrawHeader($mps[key($mps)][1]['FULL_NAME'],$mps[key($mps)][1]['STUDENT_ID']);
 				//DrawHeader($mps[key($mps)][1]['GRADE_ID'],GetSchool(UserSchool()));
